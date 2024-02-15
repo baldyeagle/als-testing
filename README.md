@@ -18,9 +18,12 @@ This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) 
 
 - ALS - Async Local Storage
 
-| Port | App with ALS           | Convenient Link       | Working? |
-| ---- | ---------------------- | --------------------- | -------- |
-| 3100 | Express                | http://localhost:3100 | Yes      |
-| 3101 | Next.JS                | http://localhost:3101 | No       |
-| 3102 | Next.JS custom server  | http://localhost:3102 | No       |
-| 3103 | Next.JS express server | http://localhost:3103 | No       |
+| Port   | App with ALS              | Convenient Link       | Working? |
+| ------ | ------------------------- | --------------------- | -------- |
+| 3100   | Express                   | http://localhost:3100 | Yes      |
+| 3101   | Next.JS                   | http://localhost:3101 | No       |
+| 3102   | Next.JS custom server     | http://localhost:3102 | No       |
+| 3103   | Next.JS express server    | http://localhost:3103 | No       |
+| 3000\* | Remix with express server | http://localhost:3000 | Sort of? |
+
+\* I couldn't figure out how to \*actually\* change the port :(
