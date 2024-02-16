@@ -26,4 +26,4 @@ This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) 
 | 3103   | Next.JS express server    | http://localhost:3103 | No       |
 | 3000\* | Remix with express server | http://localhost:3000 | Sort of? |
 
-\* I couldn't figure out how to \*actually\* change the port :(
+\* I couldn't figure out how to *actually* change the port :(
