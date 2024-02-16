@@ -1,7 +1,13 @@
 import { AsyncLocalStorage } from "async_hooks";
 import type { Request, Response, NextFunction } from "express";
 
-const storage = new AsyncLocalStorage<Map<string, any>>();
+declare namespace globalThis {
+  export let storage: AsyncLocalStorage<Map<string, any>>;
+}
+
+const storage = (globalThis.storage ??= new AsyncLocalStorage<
+  Map<string, any>
+>());
 
 const store = new Map<string, any>([["temp", "stored temporary value!!!"]]);
 

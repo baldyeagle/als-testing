@@ -3,7 +3,7 @@ import { AsyncLocalStorage } from "async_hooks";
 /**
  * @type Map<string, any>
  */
-const storage = new AsyncLocalStorage();
+const storage = (globalThis.storage ??= new AsyncLocalStorage());
 
 /**
  * @type Map<string, any>
