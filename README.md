@@ -1,4 +1,4 @@
-# als-testing
+# AsyncLocalStorage Testing (als-testing)
 
 This repo is set up to test the functionality of `AsyncLocalStorage` in various React-based frameworks. The issue is that accessing a store needs to be in the asynchronous context. For example:
 
@@ -48,4 +48,4 @@ This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) 
 | 3103   | Next.JS express server    | http://localhost:3103 | Yes      |
 | 3000\* | Remix with express server | http://localhost:3000 | Yes      |
 
-\* I couldn't figure out how to \*actually\* change the port :(
+\* I couldn't figure out how to *actually* change the port :(
