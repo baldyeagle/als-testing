@@ -1,4 +1,4 @@
-# als-testing
+# AsyncLocalStorage Testing (als-testing)
 
 To install dependencies:
 
